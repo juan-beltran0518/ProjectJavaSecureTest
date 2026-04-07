@@ -1,9 +1,0 @@
-name: "eci-codeql"
-queries:
-  - uses: security-and-quality
-paths:
-  - src
-paths-ignore:
-  - target
-  - .mvn
-  - .github
