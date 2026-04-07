@@ -4,6 +4,8 @@
 name: Build and deploy JAR app to Azure Web App - ids-backend
 
 on:
+  push:
+  pull_request:
   workflow_dispatch:
 
 jobs:
