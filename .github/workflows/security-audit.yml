@@ -3,6 +3,7 @@ name: "Ejecución de Auditoría de Seguridad"
 on:
   push:
     branches:
+      - test/pipeline
       - test/pipelines
       - 'feat/**'
   pull_request:
