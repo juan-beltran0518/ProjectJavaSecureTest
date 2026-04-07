@@ -1,0 +1,8 @@
+services:
+  eci:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: eci:local
+    ports:
+      - "8080:8080"
